@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-17T12:17:09Z" name="Suite" finished-at="2022-12-17T12:17:39Z" duration-ms="29756">
+    <groups>
+      <group name="errorvalidations">
+        <method signature="Errorvalidations.loginerrorvalidations()[pri:0, instance:training.comm.myframe.Errorvalidations@49964d75]" name="loginerrorvalidations" class="training.comm.myframe.Errorvalidations"/>
+        <method signature="Errorvalidations.ordererrorvalidation()[pri:0, instance:training.comm.myframe.Errorvalidations@49964d75]" name="ordererrorvalidation" class="training.comm.myframe.Errorvalidations"/>
+      </group> <!-- errorvalidations -->
+    </groups>
+    <test started-at="2022-12-17T12:17:09Z" name="Test.Errorvalidations" finished-at="2022-12-17T12:17:39Z" duration-ms="29756">
+      <class name="training.comm.myframe.Errorvalidations">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:training.comm.myframe.Errorvalidations@49964d75]" started-at="2022-12-17T12:17:09Z" name="launchapplication" finished-at="2022-12-17T12:17:16Z" duration-ms="6708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="loginerrorvalidations()[pri:0, instance:training.comm.myframe.Errorvalidations@49964d75]" started-at="2022-12-17T12:17:16Z" name="loginerrorvalidations" finished-at="2022-12-17T12:17:16Z" duration-ms="576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginerrorvalidations -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:training.comm.myframe.Errorvalidations@49964d75]" started-at="2022-12-17T12:17:16Z" name="teardown" finished-at="2022-12-17T12:17:18Z" duration-ms="1499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:training.comm.myframe.Errorvalidations@49964d75]" started-at="2022-12-17T12:17:18Z" name="launchapplication" finished-at="2022-12-17T12:17:23Z" duration-ms="5640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="producterrorvalidations()[pri:0, instance:training.comm.myframe.Errorvalidations@49964d75]" started-at="2022-12-17T12:17:23Z" name="producterrorvalidations" finished-at="2022-12-17T12:17:27Z" duration-ms="3666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- producterrorvalidations -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:training.comm.myframe.Errorvalidations@49964d75]" started-at="2022-12-17T12:17:27Z" name="teardown" finished-at="2022-12-17T12:17:29Z" duration-ms="2288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:training.comm.myframe.Errorvalidations@49964d75]" started-at="2022-12-17T12:17:29Z" name="launchapplication" finished-at="2022-12-17T12:17:35Z" duration-ms="6179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="ordererrorvalidation()[pri:0, instance:training.comm.myframe.Errorvalidations@49964d75]" started-at="2022-12-17T12:17:35Z" name="ordererrorvalidation" finished-at="2022-12-17T12:17:37Z" depends-on-methods="training.comm.myframe.Errorvalidations.producterrorvalidations" duration-ms="1553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ordererrorvalidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:training.comm.myframe.Errorvalidations@49964d75]" started-at="2022-12-17T12:17:37Z" name="teardown" finished-at="2022-12-17T12:17:39Z" duration-ms="1615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- training.comm.myframe.Errorvalidations -->
+    </test> <!-- Test.Errorvalidations -->
+  </suite> <!-- Suite -->
+</testng-results>

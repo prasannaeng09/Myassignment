@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  name="Suite" parallel="classes" thread-count="3">
+<parameter name="browsername" value="chrome"></parameter>
+<parameter name="url" value="https://www.lambdatest.com/selenium-playground/"></parameter>
+  <test thread-count="5" name="Test.Standalonetest">
+    <classes>
+      <class name="basetest.Scenario_1"/>
+       <class name="basetest.Scenario_2"/>  
+       <class name="basetest.Scenario_3"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
